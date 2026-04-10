@@ -18,14 +18,15 @@ competition: WaytoAGI G1 2.7 Skill Flash Competition
 
 ## 🎥 Demo 展示
 
-| 片段 | 提示词 | 状态 | 生成时间 |
-|------|--------|------|---------|
-| 1 | 中文Demo-赛博朋克黑客雨夜 | ✅ | ~60s |
-| 2 | Demo-赛博朋克雨夜街头 | ✅ | ~78s |
-| 3 | Demo-English Cyberpunk | ✅ | ~114s |
-| 4 | Demo-日落海景 | ✅ | ~78s |
+| # | 视频 | 提示词 | 风格 | 状态 | 耗时 |
+|---|------|--------|------|------|------|
+| 1 | [▶ 播放](https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/81/20260410/13e23c72/86364518-metadata_d695fd0204e19014.mp4?Expires=1775885160&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=9%2BEsX%2BlS%2FMdFtDv8KKifj8ecLCE%3D) | 赛博朋克黑客雨夜 | 🌃 cyberpunk | ✅ | ~60s |
+| 2 | [▶ 播放](https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/e3/20260410/13e23c72/91086387-metadata_d0aadee712bcb20d.mp4?Expires=1775884614&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=rbz9SwEshbC6DLuMVre2g43DTJQ%3D) | 赛博朋克雨夜街头 | 🌃 cyberpunk | ✅ | ~78s |
+| 3 | [▶ 播放](https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/9b/20260410/13e23c72/61255364-metadata_a9a4df5d68c71a65.mp4?Expires=1775884966&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=LR1hkZv8VqMDUCjFYZ6UjRl0nbo%3D) | English Cyberpunk | 🌃 cyberpunk | ✅ | ~114s |
+| 4 | [▶ 播放](https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/d8/20260410/e8f777a3/96229663-metadata_9fae266a63d9bae2.mp4?Expires=1775884311&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=vEFpJ0jebGgwDwWhR0XSisavD2k%3D) | 日落海景 | 🌍 nature | ✅ | ~78s |
 
-> 视频URL为OSS签名临时链接，实际使用时API实时返回有效链接。
+> ⚠️ 视频为 OSS 签名临时链接，有效期有限，请及时下载保存。
+> 💡 GitHub 上传视频文件（永久有效）：https://github.com/gxinxing/video-story-engine
 
 ---
 
@@ -99,3 +100,9 @@ video-story-engine/
 └── demo/
     └── result.json    # Demo 生成结果（含4个视频）
 ```
+
+## 相关链接
+
+- **GitHub 仓库**: https://github.com/gxinxing/video-story-engine
+- **Wan 2.7 文档**: https://help.aliyun.com/zh/model-studio/developer-reference/wanx
+- **DashScope 控制台**: https://dashscope.console.aliyun.com/
